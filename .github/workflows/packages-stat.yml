@@ -20,8 +20,8 @@ jobs:
         with:
           node-version: 16.x
       - run: | 
-          git config --local user.name 'Text-Gen Bot'
-          git config --local user.email 'youwritedotnet@gmail.com'
+          git config --local user.name 'nhaouari'
+          git config --local user.email 'nhaouari@usthb.dz'
           node update-stats.js
           git add .
           git commit -m "chore: Update Packages stats"
