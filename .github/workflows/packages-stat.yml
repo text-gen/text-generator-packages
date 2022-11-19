@@ -21,7 +21,7 @@ jobs:
           node-version: 16.x
       - run: | 
           git config --local user.name 'Bot Update Packages Stats'
-          git config --local user.email 'nhaouari@usthb.dz'
+          git config --local user.email 'youwritedotnet@gmail.com'
           node update-stats.js
           git add .
           git commit -m "chore: Update Packages stats"
