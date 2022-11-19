@@ -1,0 +1,30 @@
+name: Pull Packages stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Put here!!
+
+# run it on closing PR to test the workflow, will remove once it works
+# on:
+#   pull_request:
+#     types: [opened, closed, synchronize]
+
+jobs:
+  pull-stats:
+    if: github.repository == 'text-gen/text-generator-packages'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - run: | 
+          git config --local user.name 'Text-Gen Bot'
+          git config --local user.email 'youwritedotnet@gmail.com'
+          node update-stats.js
+          git add .
+          git commit -m "chore: Update Packages stats"
+          git push
+        env:
+          gh_token: ${{ secrets.GH_TOKEN }}
