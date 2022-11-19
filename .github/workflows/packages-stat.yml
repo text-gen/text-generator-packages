@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 16.x
       - run: | 
-          git config --local user.name 'nhaouari'
+          git config --local user.name 'Bot Update Packages Stats'
           git config --local user.email 'nhaouari@usthb.dz'
           node update-stats.js
           git add .
