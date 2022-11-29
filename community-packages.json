@@ -9,5 +9,16 @@
         "tags" : "writing, brainstorming",
         "authorUrl": "https://www.buymeacoffee.com/haouarine",
         "repo":"text-gen/gpt-3-prompt-templates"
-    }
+    },
+    {
+        "packageId": "dalle-2",
+        "name": "Dalle-2 prompts",
+        "version": "0.0.1",
+        "minTextGeneratorVersion": "0.1.0",
+        "description": "The package contains some interessting Dalle-2 prompt templates",
+        "author": "Noureddine Haouari",
+        "tags" : "photo, dalle-2",
+        "authorUrl": "https://www.buymeacoffee.com/haouarine",
+        "repo":"text-gen/dalle-2"
+        }
 ]
