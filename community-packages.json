@@ -20,5 +20,16 @@
         "tags" : "photo, dalle-2",
         "authorUrl": "https://www.buymeacoffee.com/haouarine",
         "repo":"text-gen/dalle-2"
-        }
+        },
+    {
+    "packageId": "huggingface",
+    "name": "Huggingface Prompts Package",
+    "version": "0.0.1",
+	"minTextGeneratorVersion": "0.1.0",
+	"description": "Huggingface Prompts comes with Text Generator plugin in Obsidian",
+    "author": "Noureddine Haouari",
+    "tags" : "writing, brainstorming, huggingface",
+	"authorUrl": "https://www.buymeacoffee.com/haouarine",
+    "repo":"text-gen/huggingface"
+}
 ]
