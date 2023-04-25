@@ -30,5 +30,16 @@
         "tags": "writing, brainstorming, huggingface",
         "authorUrl": "https://www.buymeacoffee.com/haouarine",
         "repo": "text-gen/huggingface"
+    },
+    {
+        "packageId": "awesomechatgpt",
+        "name": "Awesome chatgpt",
+        "version": "0.0.1",
+        "minTextGeneratorVersion": "0.1.0",
+        "description": "This repo includes ChatGPT prompt curation to use ChatGPT better.",
+        "author": "f",
+        "tags": "writing, brainstorming",
+        "authorUrl": "https://github.com/f/awesome-chatgpt-prompts",
+        "repo": "nhaouari/awesome-chatgpt-textgenertor"
     }
 ]
