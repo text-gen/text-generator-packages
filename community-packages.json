@@ -41,5 +41,16 @@
         "tags": "writing, brainstorming",
         "authorUrl": "https://github.com/f/awesome-chatgpt-prompts",
         "repo": "nhaouari/awesome-chatgpt-textgenertor"
-    }
+    },
+    {
+        "packageId": "awesomePrompts",
+        "name": "Awesome Prompts",
+        "version": "0.0.1",
+        "minTextGeneratorVersion": "0.5.7",
+        "description": "This repo includes ChatGPT prompt curation to use ChatGPT better.",
+        "author": "f",
+        "tags": "writing, brainstorming, awesome",
+        "authorUrl": "https://github.com/f/awesome-chatgpt-prompts",
+        "repo": "text-gen/awesome-tg-package"
+   }
 ]
