@@ -32,19 +32,6 @@
         "repo": "text-gen/huggingface"
     },
     {
-        "packageId": "text package",
-        "desktopOnly": true,
-        "name": "testing package",
-        "version": "0.0.1",
-        "minTextGeneratorVersion": "0.1.0",
-        "description": "this package does nothing, we are just testing something, don't try to install it",
-        "author": "Noureddine Haouari",
-        "tags": "",
-        "type": "extension",
-        "authorUrl": "https://www.buymeacoffee.com/haouarine",
-        "repo": "cljy7gzpl0000pj0g0f56paay"
-    },
-    {
         "packageId": "awesomePrompts",
         "name": "Awesome Prompts",
         "version": "0.0.2",
