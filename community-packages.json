@@ -33,6 +33,7 @@
     },
     {
         "packageId": "text package",
+        "desktopOnly": true,
         "name": "testing package",
         "version": "0.0.1",
         "minTextGeneratorVersion": "0.1.0",
@@ -41,7 +42,7 @@
         "tags": "",
         "type": "extension",
         "authorUrl": "https://www.buymeacoffee.com/haouarine",
-        "repo": "text-gen/huggingface"
+        "repo": "cljy7gzpl0000pj0g0f56paay"
     },
     {
         "packageId": "awesomePrompts",
