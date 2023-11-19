@@ -1,5 +1,6 @@
 [
     {
+        "core": true,
         "type": "extension",
         "packageId": "testExtension",
         "name": "test extension Package",
