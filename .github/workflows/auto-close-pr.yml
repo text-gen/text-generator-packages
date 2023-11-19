@@ -1,0 +1,26 @@
+name: Auto-close Pull Request
+
+on:
+  pull_request:
+    paths:
+      - './core-packages.json'
+
+jobs:
+  close-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Close pull request if file changed
+      run: |
+        PR_NUMBER=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
+        FILES_CHANGED=$(gh pr diff $PR_NUMBER --json files --color never | jq -r '.[].filename')
+
+        if echo "$FILES_CHANGED" | grep -q './core-packages.json'; then
+          echo "Closing the pull request because 'core-packages.json' was modified."
+          gh pr close $PR_NUMBER
+        else
+          echo "No action needed. 'core-packages.json' was not modified."
+        fi
