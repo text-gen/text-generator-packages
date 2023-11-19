@@ -1,0 +1,19 @@
+[
+    {
+        "type": "extension",
+        "packageId": "testExtension",
+        "name": "test extension Package",
+        "version": "0.0.1",
+        "minTextGeneratorVersion": "0.1.0",
+        "description": "testing extension package",
+        "author": "Noureddine Haouari",
+        "tags": "testing",
+        "authorUrl": "https://www.buymeacoffee.com/haouarine",
+        "repo": "text-gen/gpt-3-prompt-templates",
+        "files":{
+            "main":"",
+            "style":"",
+            "manifest": ""
+        }
+    }
+]
