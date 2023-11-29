@@ -13,5 +13,19 @@
         "repo": "text-gen/gpt-3-prompt-templates",
         "folderName": "testExtension",
         "price": 20
+    },
+    {
+        "core": true,
+        "packageId": "testTemplate",
+        "name": "test template Package",
+        "version": "0.0.1",
+        "minTextGeneratorVersion": "0.1.0",
+        "description": "testing template package",
+        "author": "Noureddine Haouari",
+        "tags": "testing",
+        "authorUrl": "https://www.buymeacoffee.com/haouarine",
+        "repo": "text-gen/gpt-3-prompt-templates",
+        "folderName": "testTemplate",
+        "price": 2
     }
 ]
