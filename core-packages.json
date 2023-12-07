@@ -1,7 +1,7 @@
 [
     {
         "core": true,
-        "type": "extension",
+        "type": "feature",
         "packageId": "testExtension",
         "name": "test extension Package",
         "version": "0.0.1",
