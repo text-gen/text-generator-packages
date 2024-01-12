@@ -41,5 +41,16 @@
         "tags": "writing, brainstorming, awesome",
         "authorUrl": "https://github.com/f/awesome-chatgpt-prompts",
         "repo": "text-gen/awesome-tg-package"
+   },
+   {
+    "packageId": "TTSOpenAI",
+    "name": "Text To Speech Package",
+    "version": "0.0.1",
+    "minTextGeneratorVersion": "0.6.0",
+    "description": "Contains Text To Speech Templates and support for TTS for other templates",
+    "author": "Noureddine",
+    "tags": "TTS, Speak",
+    "authorUrl": "https://www.buymeacoffee.com/haouarine",
+    "repo": "text-gen/TTS"
    }
 ]
