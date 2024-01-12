@@ -43,9 +43,9 @@
         "repo": "text-gen/awesome-tg-package"
    },
    {
-    "packageId": "TTSOpenAI",
+    "packageId": "tts",
     "name": "Text To Speech Package",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "minTextGeneratorVersion": "0.6.0",
     "description": "Contains Text To Speech Templates and support for TTS for other templates",
     "author": "Noureddine",
