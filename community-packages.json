@@ -57,7 +57,7 @@
         {
                 "packageId": "vision",
                 "name": "Vision Package",
-                "version": "0.0.1",
+                "version": "0.0.2",
                 "minTextGeneratorVersion": "0.6.0",
                 "description": "Contains Vision Templates and support for Vision for other templates (Scripts)",
                 "author": "Noureddine",
