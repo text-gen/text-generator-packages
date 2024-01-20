@@ -11,15 +11,15 @@
                 "repo": "text-gen/gpt-3-prompt-templates"
         },
         {
-                "packageId": "dalle-2",
-                "name": "Dalle-2 prompts",
-                "version": "0.0.1",
-                "minTextGeneratorVersion": "0.1.0",
-                "description": "The package contains some interessting Dalle-2 prompt templates",
+                "packageId": "dalle",
+                "name": "OpenAI Dalle Package",
+                "version": "0.0.5",
+                "minTextGeneratorVersion": "0.5.0",
+                "description": "The package contains some interessting Dalle-2/Dalle-3 prompt templates",
                 "author": "Noureddine Haouari",
-                "tags": "photo, dalle-2",
+                "tags": "photo, dalle-2, dalle-3",
                 "authorUrl": "https://www.buymeacoffee.com/haouarine",
-                "repo": "text-gen/dalle-2"
+                "repo": "text-gen/tg-dalle-package"
         },
         {
                 "packageId": "huggingface",
