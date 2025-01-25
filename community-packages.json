@@ -68,7 +68,7 @@
         {
                 "packageId": "smartConnections",
                 "name": "Smart Connections Package",
-                "version": "0.0.1",
+                "version": "0.0.2",
                 "minTextGeneratorVersion": "0.6.0",
                 "description": "Contains Smart Connection Templates and support for Smart Connections for other templates (Script)",
                 "author": "Noureddine",
